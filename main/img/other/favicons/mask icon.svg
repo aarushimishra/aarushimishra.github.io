@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mask icon</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="180" height="180"></rect>
+    </defs>
+    <g id="mask-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path-23-+-Path-23-Copy-+-Path-23-Copy-2-Mask">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <polygon id="Path-23" fill="#000000" mask="url(#mask-2)" points="10.9138922 132.1875 0 132.1875 46.260976 50.625 92.8125 132.1875 41.7749874 132.1875 41.7749874 122.0657 76.5667067 122.0657 46.40625 69.2235368"></polygon>
+            <polygon id="Path-23-Copy" fill="#000000" mask="url(#mask-2)" points="81.5625 50.625 91.4689694 50.625 137.8125 132.1875 125.760378 132.1875"></polygon>
+            <polygon id="Path-23-Copy-2" fill="#000000" mask="url(#mask-2)" points="123.75 50.625 133.656469 50.625 180 132.1875 167.947878 132.1875"></polygon>
+        </g>
+    </g>
+</svg>

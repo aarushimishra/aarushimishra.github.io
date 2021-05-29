@@ -1,0 +1,9 @@
+{
+    "name": "Aarushi Mishra",
+    "short_name": "AM",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+  }
