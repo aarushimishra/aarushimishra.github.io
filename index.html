@@ -12,10 +12,7 @@
 
     <!-- Goole fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/696d118981.js" crossorigin="anonymous"></script>
@@ -30,19 +27,16 @@
     <link rel="shortcut-icon" href="./main/img/other/favicons/favicon.ico">
     <meta name="theme-color" content="#0647A6">
 
-
-
     <!-- CSS -->
     <link rel="stylesheet" href="./main/css/theme.css">
     <link rel="stylesheet" href="./main/css/style.css">
     <style>
         footer{
-            background-color: #fff;
+            background-color: #FFFFFF;
             padding-top: 2rem;
             padding-bottom: 2rem;
         }
     </style>
-
 
     <!-- JS -->
     <script src="./main/js/jquery.slim.min.js" defer></script>
@@ -51,7 +45,7 @@
 </head>
 
 <body>
-    <header class="site-header">
+    <header class="site-header" style="background-color: #FFFFFF;"> <!--color-->
         <a href="#main" class="sr-only sr-only-focusable">Skip to main content</a>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light py-3" aria-label="Main navigation">
@@ -95,83 +89,74 @@
 <!-- Top Navigation -->
 
 <main id="main">
-    <section class="container my-6">
-        <div class="row justify-content-lg-between align-items-lg-center">
-            <div class="col-lg-6 text-center text-lg-left my-3">
-                <h2 class="mb-4"><b>Hello! &#x1F44B;</b></h2>
-                <p class="text-dark mb-4">
-                    I am Aarushi, a digital product designer based out of India. I love creating products that are intuitive in form and function.
-                </p>
-                <a class="link-cta" href="./about.html">More about me &nbsp;<i class="fas fa-arrow-right"></i></a> 
-            </div>
-        </div>
-    </section>
+    <div class="container">
+        <main id="main">
+            <!-- Hero -->
+            <section class="container py-6">
+                <div class="row justify-content-lg-between align-items-lg-center py-6">
+                    <div class="col-lg-8 text-center text-lg-left">
+                        <h2 class="mb-4">Hello! 👋</h2>
+                        <p class="lead text-dark mb-4">
+                            I am Aarushi, a digital product designer based out of India. I love creating products that are intuitive in form and function.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-    <section class="container py-4">
-        <div class="row">
-            <div class="col-lg-12 py-6">
-                <a href="./genius.html" class="stretched-link">
-                    <img src="./main/img/thumbnail/genius.thumbnail.webp" class=" img-fluid" alt="parking genius">
-                </a>
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="./genius.html">
+                        <img src="./main/img/thumbnail/genius.thumbnail.webp" class="img-fluid pb-6" alt="parking genius">
+                    </a>
+
+                    <a href="./homeloans.html">
+                        <img src="./main/img/thumbnail/homeloan.thumbnail.webp" class="img-fluid pb-6" alt="Home Loans">
+                    </a>
+
+                    <a href="./insights.html">
+                        <img src="./main/img/thumbnail/insights.thumbnail.webp" class="img-fluid pb-6" alt="parking insights">
+                    </a>
+
+                    <a href="./enforce.html">
+                        <img src="./main/img/thumbnail/enforce.thumbnail.webp" class="img-fluid pb-6" alt="parking enforce">
+                    </a>
+
+                    <a href="./fetch.html">
+                        <img src="./main/img/thumbnail/fetch.thumbnail.webp" class="img-fluid pb-2" alt="fetch">
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 py-6">
-                <a href="./homeloans.html" class="stretched-link">
-                    <img src="./main/img/thumbnail/homeloan.thumbnail.webp" class="img-fluid" alt="homeloans">
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <a href="./insights.html" class="stretched-link">
-                    <img src="./main/img/thumbnail/insights.thumbnail.webp" class="img-fluid my-4" alt="parking insights">
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <a href="./enforce.html" class="stretched-link">
-                    <img src="./main/img/thumbnail/enforce.thumbnail.webp" class="img-fluid my-4" alt="parking enforce">
-                </a>
-            </div>
-        </div>   
-        
-        
-        <div class="row">
-            <div class="col-lg-12"></div>
-                <a href="./fetch.html" class="stretched-link">
-                    <img src="./main/img/thumbnail/fetch.thumbnail.webp" class="img-fluid my-4" alt="fetch">
-                </a>
-            </div>
-        </div>
-    </section>
 </main>
-
+        
 
 <!-- Bottom Navigation -->
-<footer class="site-footer mt-5">
+<footer class="site-footer">
     <div class="container">
-        <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-center pt-5">
-            <div class="text-muted mb-3">&copy; Aarushi Mishra 2021</div>
+            <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-center pt-5">
+                <div class="text-muted mb-3">&copy; Aarushi Mishra 2021</div>
                 <ul class="list-inline">
                     <li class="list-inline-item px-1" >
-                        <a class="text-dark" href="mailto:hello@aarushimishra.com" target="_blank">Mail</a>
+                        <a class="text-dark" href="mailto:hello@aarushimishra.com">Mail</a>
                     </li>
+
                     <li class="list-inline-item px-1">
                         <a class="text-dark" href="https://www.linkedin.com/in/aarushi-mishra/" target="_blank">LinkedIn</a>
                     </li>
+                    
                     <li class="list-inline-item px-1">
                         <a class="text-dark" href="https://dribbble.com/aarushimishra" target="_blank">Dribbble</a>
                     </li>
+                    
                     <li class="list-inline-item px-1">
                         <a class="text-dark" href="https://www.behance.net/aarushi" target="_blank">Behance</a>
                     </li>
                 </ul>
             </div>
-    </div>
+        </div>
+    
 </footer>     
 
 </body>
 </html>
-
