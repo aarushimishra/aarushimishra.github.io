@@ -1,11 +1,14 @@
 html{
     font-family: 'Nunito Sans','Arial','Helvetica' sans-serif;
-    color: #1f1f1f;
+    
+    
 }
 
 body { 
     overflow-y: auto;
     overflow-x: hidden;
+    background-color: #F0EDF4;
+    color: #212121;
 }
  
 h1{
@@ -35,8 +38,8 @@ h4{
 }
 
 p{
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
     font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 1;
 }
